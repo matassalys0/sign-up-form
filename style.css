@@ -3,7 +3,7 @@
     src: url(./HammersmithOne-Regular.ttf);
 }
 
-html {
+html, button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -62,7 +62,6 @@ body {
     font-size: 18px;
     font-weight: 600;
     margin: 2rem 2rem 0 2rem;
-    text-shadow: 1px 1px 12px rgba(150, 150, 150, 0.45);
 }
 
 .form-box {
@@ -73,4 +72,29 @@ body {
     box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
     -webkit-box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
     -moz-box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
+}
+
+.create-acc-btn {
+    cursor: pointer;
+    max-width: 248px;
+    height: 48px;
+    margin: 2rem 2rem 0 2rem;
+    border: none;
+    background-color: burlywood;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
+}
+
+.create-acc-btn:hover {
+   filter: brightness(95%);
+}
+
+.login-text {
+    cursor: pointer;
+    color: burlywood;
+    font-weight: 700;
 }

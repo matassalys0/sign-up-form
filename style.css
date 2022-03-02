@@ -3,6 +3,37 @@
     src: url(./HammersmithOne-Regular.ttf);
 }
 
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-section {
+    width: 30%;
+    height: 100%;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+}
+
+.logo-text-section {
+    background-color: red;
+    height: 10%;
+    width: 100%;
+    position: relative;
+    top: 20%;
+}
+
+.form-section {
+    width: 70%;
+}
+
 .logo-text {
     font-family: logo-text-font, 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 64px;

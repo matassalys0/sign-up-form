@@ -64,16 +64,6 @@ body {
     margin: 2rem 2rem 0 2rem;
 }
 
-.form-box {
-    background-color: white;
-    height: 40%;
-    width: 100%;
-    margin-top: 48px;
-    box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
-    -webkit-box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
-    -moz-box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
-}
-
 .create-acc-btn {
     cursor: pointer;
     max-width: 248px;
@@ -97,4 +87,57 @@ body {
     cursor: pointer;
     color: burlywood;
     font-weight: 700;
+}
+
+.form-box {
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    margin-top: 48px;
+    box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: 1px 10px 23px 3px rgba(0,0,0,0.47);
+}
+
+.form-box > h1 {
+    margin-left: 2rem;
+}
+
+.sign-up-form {
+    width: 100%;
+    height: 70%;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.form-left, .form-right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-left {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-right {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.form-left > div, .form-right > div {
+    display: flex;
+    flex-direction: column;
 }

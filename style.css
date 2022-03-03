@@ -118,6 +118,26 @@ input {
     border-color: #E5E7EB;
     border-width: 1px;
     border-radius: 5px;
+    height: 24px;
+    width: 248px;
+}
+
+input:hover {
+    border-color: black;
+}
+
+input:focus {
+    border-color: lightskyblue;
+    border-width: 1px;
+    outline: none;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .form-left, .form-right {

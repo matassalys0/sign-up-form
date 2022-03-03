@@ -27,37 +27,36 @@
                 <div class="form-container">
                     <div class="form-left">
                         <div>
-                            <label for="firstName">First Name</label>
-                            <input type="text" id="firstName" name="firstName">
+                            <label for="firstName">First Name*</label>
+                            <input type="text" id="firstName" name="firstName" required minlength="3" maxlength="20">
                         </div>
                         <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div>
-                            <label for="password">Password</label>
-                            <input style="margin-bottom: 32px;" type="password" id="password" name="password">
+                            <label for="password">Password*</label>
+                            <input style="margin-bottom: 32px;" required type="password" id="password" name="password">
                         </div>
                     </div>
                     <div class="form-right">
                         <div>
-                            <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName" name="lastName">
+                            <label for="lastName">Last Name*</label>
+                            <input type="text" id="lastName" required name="lastName" minlength="3" maxlength="20">
                         </div>
                         <div>
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number*</label>
+                            <input type="text" pattern="[+]370[0-9]{8}" required id="phone" required name="phone">
                         </div>
                         <div>
-                            <label for="passwordConfirm">Confirm Password</label>
-                            <input style="margin-bottom: 32px;" type="password" id="passwordConfirm" name="passwordConfirm">
+                            <label for="passwordConfirm">Confirm Password*</label>
+                            <input style="margin-bottom: 32px;" required  type="password" id="passwordConfirm" name="passwordConfirm">
                         </div>
                     </div>
                 </div>
-            </form>
         </div>
-        <button class="create-acc-btn">Create account</button>
-
+        <button class="create-acc-btn" type="submit">Create account</button>
+    </form>
         <p>Already have an account? <span class="login-text">Log in</span></p>
     </div>
     
